@@ -29,6 +29,13 @@ class DahliaApp extends React.Component{
   }
 }
 
+class HomePage extends React.Component{
+  render(){
+    return(
+      <div>"Welcome to Dahlia's Developer Site"</div>)
+  }
+}
+
 class About extends React.Component{
 
   render(){
