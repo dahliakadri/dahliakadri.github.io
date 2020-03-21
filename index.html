@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>{% block title %}{% endblock %}</title>
+    <title>Dahlia Kadri - Developer</title>
       <!-- Loads React dependencies on all pages for this app. -->
     <script 
       crossorigin
@@ -34,12 +34,10 @@
 
 </head>
 <body>
-  {% block body %}
- 
-  {% endblock %}
+
+  <div id="root" class="container-fluid"></div>
 
   <!-- Includes any page-specific Javascript using this block. -->
-  {% block js %}
-  {% endblock %}
+<script src="/static/dahliadev.jsx" type="text/jsx"></script>
 </body>
 </html>
