@@ -62,6 +62,14 @@ class Contact extends React.Component{
   }
 }
 
+class Resources extends React.Component{
+
+  render(){
+    return(
+      <div>"Fun Stuff"</div>)
+  }
+}
+
 class Fun extends React.Component{
 
   render(){
