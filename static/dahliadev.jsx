@@ -15,34 +15,18 @@ class DahliaApp extends React.Component{
   render() {
     return (
       <div>
-    <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">WebSiteName</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Page 1</a></li>
-        <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-          <div className="row">
-          {this.state.pages[this.state.currentPage]}
-          </div>
+        <div className="row">
+          <button className="btn btn-sm btn-outline-secondary" type="button" onClick={() => this.setState({currentPage: 0})}>Home</button>
+          <button className="btn btn-sm btn-outline-secondary" type="button" onClick={() => this.setState({currentPage: 1})}>About</button>
+          <button className="btn btn-sm btn-outline-secondary" type="button" onClick={() => this.setState({currentPage: 2})}>Projects</button>
+          <button className="btn btn-sm btn-outline-secondary" type="button" onClick={() => this.setState({currentPage: 3})}>Contact</button>
+          <button className="btn btn-sm btn-outline-secondary" type="button" onClick={() => this.setState({currentPage: 4})}>Resources</button>
+          <button className="btn btn-sm btn-outline-secondary" type="button" onClick={() => this.setState({currentPage: 5})}>Fun</button>
         </div>
+        <div className="row">
+          {this.state.pages[this.state.currentPage]}
+        </div>
+      </div>
             )
   }
 }
