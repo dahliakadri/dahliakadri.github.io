@@ -16,13 +16,13 @@ class DahliaApp extends React.Component{
     return (
       <div>
       <nav className="navbar navbar-expand-md bg-dark navbar-dark">
-        <a className="navbar-brand" href="#">Dahlia Kadri</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
+        <a className="navbar-brand" href="">Dahlia Kadri</a>
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span className="navbar-toggler-icon"></span>
           </button>
       <div className="collapse navbar-collapse" id="collapsibleNavbar">
       <ul className="navbar-nav">
-        <li class="nav-item">
+        <li className="nav-item">
           <button className="btn btn-sm btn-outline-success" type="button" onClick={() => this.setState({currentPage: 0})}>Home</button>
         </li>
         <li className="nav-item">
@@ -43,7 +43,7 @@ class DahliaApp extends React.Component{
       </ul>
     </div>
     </nav>
-          <div clasName="row">
+          <div className="row">
           {this.state.pages[this.state.currentPage]}
           </div>
         </div>
