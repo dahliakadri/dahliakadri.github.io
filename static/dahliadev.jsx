@@ -6,6 +6,7 @@ class DahliaApp extends React.Component{
                             <About />,
                             <Projects  />,
                             <Contact />,
+                            <Resources />,
                             <Fun />
                             ]
                   }
@@ -14,12 +15,41 @@ class DahliaApp extends React.Component{
   render() {
     return (
       <div>
+      <nav className="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">Dahlia Kadri</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <button className="btn btn-sm btn-outline-success" type="button" onClick={() => this.setState({currentPage: 0})}>Home</button>
+        </li>
+        <li class="nav-item">
+          <button className="btn btn-sm btn-outline-secondary" type="button" onClick={() => this.setState({currentPage: 1})}>About</button>
+        </li>
+        <li class="nav-item">
+          <button className="btn btn-sm btn-outline-secondary" type="button" onClick={() => this.setState({currentPage: 2})}>Projects</button>
+        </li>
+        <li class="nav-item">
+          <button className="btn btn-sm btn-outline-secondary" type="button" onClick={() => this.setState({currentPage: 3})}>Contact</button>
+        </li>
+        <li class="nav-item">
+          <button className="btn btn-sm btn-outline-secondary" type="button" onClick={() => this.setState({currentPage: 4})}>Resources</button>
+        </li>
+        <li class="nav-item">
+          <button className="btn btn-sm btn-outline-secondary" type="button" onClick={() => this.setState({currentPage: 5})}>Fun</button>
+        </li>
+      </ul>
+    </div>
+    </nav>
         <div className="row">
               <button className="btn btn-sm btn-outline-success" type="button" onClick={() => this.setState({currentPage: 0})}>Home</button>
               <button className="btn btn-sm btn-outline-secondary" type="button" onClick={() => this.setState({currentPage: 1})}>About</button>
               <button className="btn btn-sm btn-outline-secondary" type="button" onClick={() => this.setState({currentPage: 2})}>Projects</button>
               <button className="btn btn-sm btn-outline-secondary" type="button" onClick={() => this.setState({currentPage: 3})}>Contact</button>
-               <button className="btn btn-sm btn-outline-secondary" type="button" onClick={() => this.setState({currentPage: 4})}>Fun</button>
+              <button className="btn btn-sm btn-outline-secondary" type="button" onClick={() => this.setState({currentPage: 4})}>Resources</button>
+              <button className="btn btn-sm btn-outline-secondary" type="button" onClick={() => this.setState({currentPage: 5})}>Fun</button>
           </div>
           <div clasName="row">
           {this.state.pages[this.state.currentPage]}
@@ -57,6 +87,14 @@ class Contact extends React.Component{
   render(){
     return(
       <div>"Dahlia's Contact"</div>)
+  }
+}
+
+class Fun extends React.Component{
+
+  render(){
+    return(
+      <div>"Fun Stuff"</div>)
   }
 }
 
