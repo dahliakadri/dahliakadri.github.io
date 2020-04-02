@@ -15,8 +15,7 @@ class DahliaApp extends React.Component{
   render() {
     return (
       <div>
-          <div className="row">
-      <nav className="navbar navbar-expand-md bg-dark navbar-dark">
+      <nav className="navbar sticky-top navbar-expand-md bg-light navbar-light">
         <a className="navbar-brand" href="">Dahlia Kadri</a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span className="navbar-toggler-icon"></span>
@@ -44,7 +43,6 @@ class DahliaApp extends React.Component{
       </ul>
     </div>
     </nav>
-    </div>
         <div className="row">
           {this.state.pages[this.state.currentPage]}
         </div>
