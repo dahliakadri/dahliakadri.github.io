@@ -76,6 +76,12 @@ class Projects extends React.Component{
       Moody is a full stack web application that enables users to search and save top rated movies by country.
       <br/>
       <a href="https://github.com/dahliakadri/movies_by_destination" target="_blank"><img src="/static/img/github.png"/>Github Repo</a>
+      <br/>
+      <img src="https://github.com/dahliakadri/movies_by_destination/blob/master/static/img/moodymovie.gif" className="moody" alt="Poster"/>
+      <br/>
+      Moody Movies has a custom React web interface that allows users to search for top movies from countries.
+      Utilizing IMDB datasets, Moody's PostgreSQL database holds 180,000 movies with country origin, ratings, and votes.
+      Users also search for movies by country in an interactive Google map. Users can add and remove movies from their favorites list.
       </div>
       <div className="col-md-6 projects">
       Travel Quiz is my first python project. Currently building the Javascript React front-end. 
