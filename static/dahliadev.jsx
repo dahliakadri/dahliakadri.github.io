@@ -14,7 +14,8 @@ class DahliaApp extends React.Component{
     return (
       <div>
       <nav className="navbar sticky-top navbar-expand-md bg-light navbar-light">
-        <a className="navbar-brand" href="">Dahlia Kadri</a>
+        <a className="navbar-brand" href="">
+        <img src="/static/img/favicon.png" width="60" height="50" className="d-inline-block align-middle" alt=""/> Dahlia Kadri</a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span className="navbar-toggler-icon"></span>
           </button>
@@ -27,7 +28,7 @@ class DahliaApp extends React.Component{
           <button className="btn btn-sm btn-outline-secondary" type="button" onClick={() => this.setState({currentPage: 1})}>Projects</button>
         </li>
          <li className="nav-item btn-outline-secondary">
-          <a href="/static/DahliaKadri_Resume.pdf">Resume</a>
+          <button class="btn btn-sm btn-outline-secondary" type="button" href="/static/DahliaKadri_Resume.pdf">Resume</button>
         </li>
         <li className="nav-item">
           <button className="btn btn-sm btn-outline-secondary" type="button" onClick={() => this.setState({currentPage: 2})}>Contact</button>
