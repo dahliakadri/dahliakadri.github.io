@@ -72,12 +72,13 @@ class Projects extends React.Component{
   render(){
     return(
       <div className="row justify-content-center">
-      <div className="col-md-12 projects">
+      <div className="col-md-6 projects">
       Moody - Movies by Destination
       <br/>
       Full stack web application that enables users to search and save top rated movies by country.
       <br/>
       <a href="https://github.com/dahliakadri/movies_by_destination" target="_blank"><img src="/static/img/github.png"/>Github Repo</a>
+      <br/>
       <a href="http://moodymovies.sadraii.com/" target="_blank"><img src="/static/img/moody.png"/>Deployed App</a>
       <br/>
       <img src="/static/img/moodymovie.gif" className="moody" alt="Poster"/>
@@ -85,8 +86,8 @@ class Projects extends React.Component{
       Moody Movies has a custom React front-end that allows users to search for top movies from countries.
       Utilizing IMDB datasets, Moody's PostgreSQL database holds 180,000 movies with country origin, ratings, and votes.
       Users also search for movies by country in an interactive Google map. Users can add and remove movies from their favorites list.
-      <br/>
-      <br/>
+      </div>
+      <div className="col-md-6 projects">
       Travel Quiz
       <br/> My first python project. Currently building the Javascript React front-end. 
       <br/>
