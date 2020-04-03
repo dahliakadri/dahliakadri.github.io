@@ -77,11 +77,11 @@ class Contact extends React.Component{
     return(
       <div>
        <div className="row">
-      <img src="images/email.png"> <a href="mailto:dahliakadri@gmail.com" target="_blank">dahliakadri@gmail.com</a></div>
+      <img src="images/email.png"/> <a href="mailto:dahliakadri@gmail.com" target="_blank">dahliakadri@gmail.com</a></div>
       <div className="row">
-      <img src="images/linkedin.png"> <a href="https://www.linkedin.com/in/dahliakadri/" target="_blank">linkedin.com/in/dahliakadri</a></div>
+      <img src="images/linkedin.png"/> <a href="https://www.linkedin.com/in/dahliakadri/" target="_blank">linkedin.com/in/dahliakadri</a></div>
       <div className="row">
-      <img src="images/github.png"> <a href="https://github.com/dahliakadri/" target="_blank">github.com/dahliakadri</a></div>
+      <img src="images/github.png"/> <a href="https://github.com/dahliakadri/" target="_blank">github.com/dahliakadri</a></div>
       </div>)
   }
 }
