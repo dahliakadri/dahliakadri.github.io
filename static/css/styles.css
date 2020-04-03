@@ -65,12 +65,14 @@ body {
 .about-me {
     text-align: justify;
     padding: 15px;
-    background-color: #f7e7ecd1;
+    background-color: #fff1f5de;
 }
 
 .projects {
     text-align: justify;
-    background-color: #f7e7ecd1;
+    background-color: #fff1f5de;
+    border-right-style: solid;
+    border-color: white;
 }
 
 .moody {

@@ -73,7 +73,7 @@ class Projects extends React.Component{
     return(
       <div className="row justify-content-center">
       <div className="col-md-6 projects">
-      Moody - Movies by Destination
+      <b>Moody - Movies by Destination</b>
       <br/>
       Full stack web application that enables users to search and save top rated movies by country.
       <br/>
@@ -88,7 +88,7 @@ class Projects extends React.Component{
       Users also search for movies by country in an interactive Google map. Users can add and remove movies from their favorites list.
       </div>
       <div className="col-md-6 projects">
-      Travel Quiz
+      <b>Travel Quiz</b>
       <br/> My first python project. Currently building the Javascript React front-end. 
       <br/>
       <a href="https://github.com/dahliakadri/Travel_Quiz" target="_blank"><img src="/static/img/github.png"/>Github Repo</a>
