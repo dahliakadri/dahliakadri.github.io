@@ -15,7 +15,7 @@ class DahliaApp extends React.Component{
       <div>
       <nav className="navbar sticky-top navbar-expand-md bg-light navbar-light">
         <a className="navbar-brand" href="">
-        <img src="/static/img/favicon2.png" width="30" height="30" className="d-inline-block align-middle" alt=""/> Dahlia Kadri</a>
+        <img src="/static/img/favicon2.svg" width="30" height="30" className="d-inline-block align-middle" alt=""/> Dahlia Kadri</a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span className="navbar-toggler-icon"></span>
           </button>
@@ -28,7 +28,7 @@ class DahliaApp extends React.Component{
           <button className="btn btn-sm btn-outline-secondary" type="button" onClick={() => this.setState({currentPage: 1})}>Projects</button>
         </li>
          <li className="nav-item btn-outline-secondary">
-          <button class="btn btn-sm btn-outline-secondary" type="button" onClick="window.open('/static/DahliaKadri_Resume.pdf');">Resume</button>
+          <button class="btn btn-sm btn-outline-secondary" type="button" onclick="window.open('/static/DahliaKadri_Resume.pdf','_blank')">Resume</button>
         </li>
         <li className="nav-item">
           <button className="btn btn-sm btn-outline-secondary" type="button" onClick={() => this.setState({currentPage: 2})}>Contact</button>
