@@ -15,7 +15,7 @@ class DahliaApp extends React.Component{
       <div>
       <nav className="navbar sticky-top navbar-expand-md bg-light navbar-light">
         <a className="navbar-brand" href="">
-        <img src="/static/img/favicon.png" width="60" height="50" className="d-inline-block align-middle" alt=""/> Dahlia Kadri</a>
+        <img src="/static/img/favicon2.png" width="30" height="30" className="d-inline-block align-middle" alt=""/> Dahlia Kadri</a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span className="navbar-toggler-icon"></span>
           </button>
