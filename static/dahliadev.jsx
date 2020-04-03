@@ -56,7 +56,7 @@ class HomePage extends React.Component{
       I previously built university computer science programs at Microsoft Egypt. On this site you can find my professional work, 
       travel escapades, and personal software/life hacks.</div>
       <div className="col-md-6">
-      <img src="/static/img/dahliakadri.jpg" className="card-img" alt="Poster"/></div>
+      <img src="/static/img/dahliakadri.jpg" className="dahlia-photo" alt="Poster"/></div>
       </div>)
   }
 }
