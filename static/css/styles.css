@@ -50,6 +50,7 @@ body {
 
 .dahlia-photo{
 	width: 60%;
+    border-radius: 50%;
 }
 
 .btn-outline-success.focus, .btn-outline-success:focus {
