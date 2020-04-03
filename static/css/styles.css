@@ -1,4 +1,28 @@
-.container-fluid
+.no-gutters
 {
-	padding-left: 10px;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.btn-outline-secondary {
+    color: #6c757d;
+    border-color: #ffffff00;
+}
+
+.btn-outline-success {
+    color: #505863;
+    border-color: #5d656d;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success.dropdown-toggle {
+    color: #fff;
+    background-color: #6e8194;
+    border-color: #ffffff;
+}
+
+body {
+  background-image: url(/static/img/dahliabackground.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right bottom;
 }
