@@ -77,6 +77,8 @@ class Projects extends React.Component{
       <br/>
       <a href="https://github.com/dahliakadri/movies_by_destination" target="_blank"><img src="/static/img/github.png"/>Github Repo</a>
       <br/>
+      <a href="http://moodymovies.sadraii.com/" target="_blank"><img src="/static/img/moody.png"/>Deployed App</a>
+      <br/>
       <img src="https://github.com/dahliakadri/movies_by_destination/blob/master/static/img/moodymovie.gif" className="moody" alt="Poster"/>
       <br/>
       Moody Movies has a custom React web interface that allows users to search for top movies from countries.
