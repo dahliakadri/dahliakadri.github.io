@@ -1,7 +1,7 @@
-.no-gutters
+.navbar
 {
 	margin-left: -15px;
-	margin-right: -15px;
+	margin-right: -10px;
 }
 
 .btn-outline-secondary {
@@ -20,9 +20,19 @@
     border-color: #ffffff;
 }
 
-body {
+.body {
   background-image: url(/static/img/dahliabackground.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: right bottom;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #c4cac5;
+    border-color: #f7f7f700;
+}
+
+.btn-outline-success.focus, .btn-outline-success:focus {
+    box-shadow: 0 0 0 0.2rem rgba(126, 138, 129, 0.5);
 }
