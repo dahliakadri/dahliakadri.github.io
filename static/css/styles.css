@@ -17,24 +17,30 @@ body {
 }
 
 .btn-outline-secondary {
-    color: #6c757d;
+    color: #ffffff;
     border-color: #ffffff00;
 }
 
+.btn-outline-secondary:hover {
+    color: #d6d2d2;
+    background-color: #6c757d00;
+    border-color: #6c757d00;
+}
+
 .btn-outline-success {
-    color: #505863;
-    border-color: #5d656d;
+    color: #ffffff;
+    border-color: #5d656d00;
 }
 
 .btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success.dropdown-toggle {
-    color: #fff;
-    background-color: #6e8194;
-    border-color: #ffffff;
+    color: #bdb8b8;
+    background-color: #6e819400;
+    border-color: #ffffff00;
 }
 
 .btn-outline-success:hover {
-    color: #fff;
-    background-color: #c4cac5;
+    color: #afaeae;
+    background-color: #c4cac500;
     border-color: #f7f7f700;
 }
 
