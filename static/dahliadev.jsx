@@ -79,7 +79,7 @@ class Projects extends React.Component{
       <br/>
       <a href="http://moodymovies.sadraii.com/" target="_blank"><img src="/static/img/moody.png"/>Deployed App</a>
       <br/>
-      <img src="https://github.com/dahliakadri/movies_by_destination/blob/master/static/img/moodymovie.gif" className="moody" alt="Poster"/>
+      <img src="/static/img/moodymovie.gif" className="moody" alt="Poster"/>
       <br/>
       Moody Movies has a custom React web interface that allows users to search for top movies from countries.
       Utilizing IMDB datasets, Moody's PostgreSQL database holds 180,000 movies with country origin, ratings, and votes.
