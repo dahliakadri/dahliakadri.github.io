@@ -39,7 +39,7 @@ class DahliaApp extends React.Component{
       </ul>
     </div>
     </nav>
-        <div className="row">
+        <div className="row content">
           {this.state.pages[this.state.currentPage]}
         </div>
       </div>
@@ -50,14 +50,14 @@ class DahliaApp extends React.Component{
 class HomePage extends React.Component{
   render(){
     return(
-      <div className="row no-gutters justify-content-center">
+      <div className="row justify-content-center">
       <div className="col-md-6 about-me">
       Hi! I'm Dahlia and a full stack software engineer. I live in the San Francisco Bay Area and work at Box.
       I am originally from New York with roots in Alexandria, Egypt and Cork, Ireland. I currently support the Security Engineering team at Box.
       I previously built university computer science programs at Microsoft Egypt. On this site you can find my professional work, 
       travel escapades, and personal software & life hacks.</div>
       <div className="col-md-6">
-      <img src="/static/img/dahliakadri.jpg" className="dahlia-photo" alt="Poster"/></div>
+      <img src="/static/img/dahliakadri.jpg" className="dahlia-photo" alt="Poster" style="border-radius: 50%;"/></div>
       </div>)
   }
 }
@@ -91,7 +91,7 @@ class Fun extends React.Component{
 
   render(){
     return(
-      <div>The occasional blog about travel, code, and dessert.</div>)
+      <div>The occasional blog about travel, code, and dessert. Coming soon...</div>)
   }
 }
 

@@ -6,6 +6,10 @@ body {
   background-size: 200px;
 }
 
+.content{
+	margin: 10px;
+}
+
 .navbar
 {
 	margin-left: -15px;
