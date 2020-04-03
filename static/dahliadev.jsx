@@ -52,6 +52,10 @@ class HomePage extends React.Component{
     return(
       <div className="row justify-content-center">
       <div className="col-md-6 about-me">
+      <a href="mailto:dahliakadri@gmail.com" target="_blank"><img src="/static/img/email.png"/></a>
+      <a href="https://www.linkedin.com/in/dahliakadri/" target="_blank"><img src="/static/img/linkedin.png"/></a>
+      <a href="https://github.com/dahliakadri/" target="_blank"><img src="/static/img/github.png"/></a>
+      <br/>
       Hi! I'm Dahlia and a full stack software engineer. I live in the San Francisco Bay Area and work at Box.
       I am originally from New York with roots in Alexandria, Egypt and Cork, Ireland. I currently support the Security Engineering team at Box.
       I previously built university computer science programs at Microsoft Egypt. On this site you can find my professional work, 
@@ -67,7 +71,17 @@ class Projects extends React.Component{
 
   render(){
     return(
-      <div>My Software Engineering Projects include MoodyMovies and TravelQuiz</div>)
+      <div className="row justify-content-center">
+      <div className="col-md-6 projects">
+      Moody is a full stack web application that enables users to search and save top rated movies by country.
+      <br/>
+      <a href="https://github.com/dahliakadri/movies_by_destination" target="_blank"><img src="/static/img/github.png"/>Github Repo</a>
+      </div>
+      <div className="col-md-6 projects">
+      Travel Quiz is my first python project. Currently building the Javascript React front-end. 
+      <br/>
+      <a href="https://github.com/dahliakadri/Travel_Quiz" target="_blank"><img src="/static/img/github.png"/>Github Repo</a>
+      </div></div>)
   }
 }
 
