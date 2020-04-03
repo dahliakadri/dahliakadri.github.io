@@ -28,7 +28,7 @@ class DahliaApp extends React.Component{
           <button className="btn btn-sm btn-outline-secondary" type="button" onClick={() => this.setState({currentPage: 1})}>Projects</button>
         </li>
          <li className="nav-item">
-          <a href="/static/DahliaKadri_Resume.pdf"><button className="btn btn-sm btn-outline-secondary" type="button">Resume</button></a>
+          <a href="/static/DahliaKadri_Resume.pdf" target="_blank"><button className="btn btn-sm btn-outline-secondary" type="button">Resume</button></a>
         </li>
         <li className="nav-item">
           <button className="btn btn-sm btn-outline-secondary" type="button" onClick={() => this.setState({currentPage: 2})}>Contact</button>
@@ -51,7 +51,7 @@ class HomePage extends React.Component{
   render(){
     return(
       <div className="row no-gutters justify-content-center">
-      <div className="col-md-6">
+      <div className="col-md-6 about-me">
       Hi! I'm Dahlia and a full stack software engineer. I live in the San Francisco Bay Area and work at Box.
       I am originally from New York with roots in Alexandria, Egypt and Cork, Ireland. I currently support the Security Engineering team at Box.
       I previously built university computer science programs at Microsoft Egypt. On this site you can find my professional work, 
@@ -67,7 +67,7 @@ class Projects extends React.Component{
 
   render(){
     return(
-      <div>"Dahlia's Projects"</div>)
+      <div>My Software Engineering Projects include MoodyMovies and TravelQuiz</div>)
   }
 }
 
@@ -75,7 +75,14 @@ class Contact extends React.Component{
 
   render(){
     return(
-      <div>"Dahlia's Contact"</div>)
+      <div>
+       <div className="row">
+      <img src="images/email.png"> <a href="mailto:dahliakadri@gmail.com" target="_blank">dahliakadri@gmail.com</a></div>
+      <div className="row">
+      <img src="images/linkedin.png"> <a href="https://www.linkedin.com/in/dahliakadri/" target="_blank">linkedin.com/in/dahliakadri</a></div>
+      <div className="row">
+      <img src="images/github.png"> <a href="https://github.com/dahliakadri/" target="_blank">github.com/dahliakadri</a></div>
+      </div>)
   }
 }
 
@@ -84,7 +91,7 @@ class Fun extends React.Component{
 
   render(){
     return(
-      <div>"Fun Stuff"</div>)
+      <div>The occasional blog about travel, code, and dessert.</div>)
   }
 }
 
