@@ -26,6 +26,9 @@ class DahliaApp extends React.Component{
         <li className="nav-item">
           <button className="btn btn-sm btn-outline-secondary" type="button" onClick={() => this.setState({currentPage: 1})}>Projects</button>
         </li>
+         <li className="nav-item btn-outline-secondary">
+          <a href="/static/DahliaKadri_Resume.pdf">Resume</a>
+        </li>
         <li className="nav-item">
           <button className="btn btn-sm btn-outline-secondary" type="button" onClick={() => this.setState({currentPage: 2})}>Contact</button>
         </li>
