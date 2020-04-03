@@ -28,7 +28,7 @@ class DahliaApp extends React.Component{
           <button className="btn btn-sm btn-outline-secondary" type="button" onClick={() => this.setState({currentPage: 1})}>Projects</button>
         </li>
          <li className="nav-item">
-          <button className="btn btn-sm btn-outline-secondary" type="button" onClick="window.open('/static/DahliaKadri_Resume.pdf','_blank')">Resume</button>
+          <a href="/static/DahliaKadri_Resume.pdf"><button className="btn btn-sm btn-outline-secondary" type="button">Resume</button></a>
         </li>
         <li className="nav-item">
           <button className="btn btn-sm btn-outline-secondary" type="button" onClick={() => this.setState({currentPage: 2})}>Contact</button>
@@ -55,7 +55,7 @@ class HomePage extends React.Component{
       Hi! I'm Dahlia and a full stack software engineer. I live in the San Francisco Bay Area and work at Box.
       I am originally from New York with roots in Alexandria, Egypt and Cork, Ireland. I currently support the Security Engineering team at Box.
       I previously built university computer science programs at Microsoft Egypt. On this site you can find my professional work, 
-      travel escapades, and personal software/life hacks.</div>
+      travel escapades, and personal software & life hacks.</div>
       <div className="col-md-6">
       <img src="/static/img/dahliakadri.jpg" className="dahlia-photo" alt="Poster"/></div>
       </div>)
