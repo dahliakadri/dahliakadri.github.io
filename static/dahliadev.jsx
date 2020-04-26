@@ -101,8 +101,6 @@ class Contact extends React.Component{
   render(){
     return(
       <div>
-       <div className="row">
-      <img src="/static/img/email.png"/> <a href="mailto:dahliakadri@gmail.com" target="_blank">dahliakadri@gmail.com</a></div>
       <div className="row">
       <img src="/static/img/linkedin.png"/> <a href="https://www.linkedin.com/in/dahliakadri/" target="_blank">linkedin.com/in/dahliakadri</a></div>
       <div className="row">

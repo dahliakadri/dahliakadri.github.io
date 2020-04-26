@@ -66,16 +66,16 @@ body {
 .about-me {
     text-align: justify;
     padding: 15px;
-    background-color: #7f1e4091
-    color: white;
+    background-color: black;
+    color: #ccc3c3;
 }
 
 .projects {
     text-align: justify;
-    background-color: #7f1e4091;
+    background-color: black;
+    color: #ccc3c3;
     border-style: solid;
     border-color: black;
-    color: white;
 }
 }
 
