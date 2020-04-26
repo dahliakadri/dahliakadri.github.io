@@ -4,6 +4,7 @@ body {
   background-attachment: fixed;
   background-position: right bottom;
   background-size: 200px;
+  background-color: black;
 }
 
 .content{
@@ -17,7 +18,7 @@ body {
 }
 
 .bg-light {
-    background-color: #7f1e3f!important;
+    background-color: #4e1327!important;
 }
 
 .btn-outline-secondary {
@@ -65,14 +66,17 @@ body {
 .about-me {
     text-align: justify;
     padding: 15px;
-    background-color: #fff7f9de;
+    background-color: #7f1e4091
+    color: white;
 }
 
 .projects {
     text-align: justify;
-    background-color: #fff7f9de;
-    border-right-style: solid;
-    border-color: white;
+    background-color: #7f1e4091;
+    border-style: solid;
+    border-color: black;
+    color: white;
+}
 }
 
 .moody {

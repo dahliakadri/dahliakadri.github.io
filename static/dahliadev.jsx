@@ -72,7 +72,7 @@ class Projects extends React.Component{
   render(){
     return(
       <div className="row justify-content-center">
-      <div className="col-md-6 projects">
+      <div className="col-md-12 projects">
       <b>Moody - Movies by Destination</b>
       <br/>
       Full stack web application that enables users to search and save top rated movies by country.
@@ -87,7 +87,7 @@ class Projects extends React.Component{
       Utilizing IMDB datasets, Moody's PostgreSQL database holds 180,000 movies with country origin, ratings, and votes.
       Users also search for movies by country in an interactive Google map. Users can add and remove movies from their favorites list.
       </div>
-      <div className="col-md-6 projects">
+      <div className="col-md-12 projects">
       <b>Travel Quiz</b>
       <br/> My first python project. Currently building the Javascript React front-end. 
       <br/>
