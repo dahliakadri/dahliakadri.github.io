@@ -65,12 +65,12 @@ body {
 .about-me {
     text-align: justify;
     padding: 15px;
-    background-color: #fff1f5de;
+    background-color: #fff7f9de;
 }
 
 .projects {
     text-align: justify;
-    background-color: #fff1f5de;
+    background-color: #fff7f9de;
     border-right-style: solid;
     border-color: white;
 }
