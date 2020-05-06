@@ -87,6 +87,9 @@ class Projects extends React.Component{
       Users also search for movies by country in an interactive Google map. Users can add and remove movies from their favorites list.
       </div>
       <div className="col-md-12 projects">
+      <br/>
+      <br/>
+      <br/>
       <b>Travel Quiz</b>
       <br/> My first python project. Currently building the Javascript React front-end. 
       <br/>
