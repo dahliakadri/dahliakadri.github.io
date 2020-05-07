@@ -74,7 +74,7 @@ class Projects extends React.Component{
       <div className="col-md-12 projects">
       <b>Moody - Movies by Destination</b>
       <br/>
-      Full stack web application that enables users to search and save top rated movies by country.
+      Python and React JS web application that enables users to search and save top rated movies by country.
       <br/>
       <a href="https://github.com/dahliakadri/movies_by_destination" target="_blank"><img src="/static/img/github.png"/>Github Repo</a>
       <br/>
@@ -84,7 +84,7 @@ class Projects extends React.Component{
       <br/>
       Moody Movies has a custom React front-end that allows users to search for top movies from countries.
       Utilizing IMDB datasets, Moody's PostgreSQL database holds 180,000 movies with country origin, ratings, and votes.
-      Users also search for movies by country in an interactive Google map. Users can add and remove movies from their favorites list.
+      Users also search for movies by country in an interactive Google Map API integration.
       </div>
       <div className="col-md-12 projects">
       <br/>
