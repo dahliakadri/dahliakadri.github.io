@@ -56,9 +56,9 @@ class HomePage extends React.Component{
       <a href="https://www.linkedin.com/in/dahliakadri/" target="_blank"><img src="/static/img/linkedin.png"/></a>
       <a href="https://github.com/dahliakadri/" target="_blank"><img src="/static/img/github.png"/></a>
       <br/>
-      Hi! I'm Dahlia and a software engineer. I currently support the Security Engineering team at Box.
-      I previously built university computer science programs at Microsoft Egypt. On this site you can find my professional work, 
-      travel escapades, and personal software & life hacks.</div>
+      Hi! I'm Dahlia and a software engineer. I am currently working on internal tools with the Security Engineering team at Box.
+      I previously built university computer science programs at Microsoft Egypt. My professional work, 
+      travel escapades, and personal software & life hacks can be found on this site.</div>
       <div className="col-md-6">
       <img src="/static/img/dahliakadri.jpg" className="dahlia-photo" alt="Poster"/></div>
       </div>)
