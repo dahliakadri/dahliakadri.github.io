@@ -58,7 +58,7 @@ class HomePage extends React.Component{
       <br/>
       Hi! I'm Dahlia and a software engineer. I am currently working on internal tools with the Security Engineering team at Box.
       I previously built university computer science programs at Microsoft Egypt. My professional work, 
-      travel escapades, and personal software & life hacks can be found on this site.</div>
+      travel escapades, and personal software & life hacks can be found on this site</div>
       <div className="col-md-6">
       <img src="/static/img/dahliakadri.jpg" className="dahlia-photo" alt="Poster"/></div>
       </div>)
